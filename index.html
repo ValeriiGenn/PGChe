@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>People's-Guard-of-Cherkasy</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./sass/main.css" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="./index.html" class="header__nav--logo">
+                <img src="./images/mob/logom-min.png" alt="logo" />
+            </a>
+            <ul class="header__honors">
+  <li class="header__honors--item"><a href="./index.html" class="header__honors--item-it"><img src="./images/mob/medal-veteran.png" alt="medal"></a> </li>
+<li class="header__honors--item"><a href="./index.html" class="header__honors--item-it"><img src="./images/mob/za-sun.png" alt="medal"></a> </li>
+</ul>
+            <nav class="header__nav">
+
+                <ul class="header__nav--list">
+                    <li class="header__nav--item">
+                        <a href=" " class="header__nav--link">Home</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about " class="header__nav--link">About us</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#about " class="header__nav--link">How it’s made?</a>
+                    </li>
+      nav--              <li class="header__nav--item">
+                        <a href="#products " class="header__nav--link">Our products</a>
+                    </li>
+                    <li class="header__nav--item">
+                        <a href="#contact" class="header__nav--link">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="header__btn mobile-menu__button js-open-menu" aria-expanded="false" aria-controls="mobile-menu"><svg width="26" height="10"><use href="./images/symbol-defs.svg#icon-Unionm"></use></svg></button>
+
+                <!-- <button type="button" class=" header__navbtn" id="myBtn">
+        Buy now<svg
+          class="mobile-menu__button--order-icon"
+          width="5px"
+          height="8px"
+        >
+          <use href="./images/symbol-defs.svg#icon-Vectored"></use>
+        </svg>
+      </button>-->
+            </nav>
+
+        </div>
+    </header>
+    <main>
+        <!--герой-->
+        <section class="hero hero__overlay">
+            <div class="hero__container">
+                <h1 class="hero__title">народна<br>варта черкащини</h1>
+
+                <h2 class="hero__title--end">громадське об'єднання</h2>
+                <p class="hero__slogan"></p>
+                <p class="hero__call">
+                    
+                </p>
+                <ul class="hero__list">
+                    <li class="hero__item">
+                        <a href="" class="hero__link hero__link--red"></a>
+                    </li>
+                    <li class="hero__item">
+                        <a href="" class="hero__link"></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+       <!-- секція про курси-->
+              
+           
+        <!--секція продовження переваг-->
+   
+          <!--секція біографія-->
+          
+          <!--секція документація-->
+ 
+          <!--секція наші курси-->
+        
+          <!--ceкція відгуки-->
+        
+        <!--секція- галерея-->
+   
+ 
+        <!--кнопка kодалки
+        <div class="btntel">
+            <button class="btntel__phone" data-kodal-open>
+          <img class="btntel__icon" src="./images/phone.png" alt="phone" />
+        </button>
+        </div>-->
+        <!-- кнопка скрола вверх-->
+        <div id="scrollup" onclick="topFunction()" class="button mgray active" style="display: block">
+            <div class="i-icon i-chevron-up"></div>
+        </div>-->
+    </main>
+    <!--підвал-->
+    <footer class="footer ">
+       
+    </footer>
+    <!--модальне вікно-->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal__button" data-modal-close>
+          <svg class="modal-close " width="20 " height="20 ">
+            <use href="./images/symbol-defs.svg#icon-closem"></use>
+          </svg>
+        </button>
+
+            <form class=" " autocomplete="off">
+                <p class="form__leave">залиште свої контакти ми зателефонуємо</p>
+
+                <label for="name" class="form__field">
+            <span class="form__label">ім'я</span>
+            <input type="text"name="user-name"id="name"placeholder=" "autofocus
+              class="form__input"/>
+            <svg class="form__icon" width="18 " height="18 ">
+              <use href="./images/symbol-defs.svg#icon-blackmanm"></use>
+            </svg>
+          </label>
+
+                <label for="tel" class="form__field"><span class="form__label">Телефон</span>
+            <input class="form__input"type="tel"name="tel"id="tel"placeholder=" "/>
+            <svg class="form__icon" width="18 " height="18 ">
+              <use href="./images/symbol-defs.svg#icon-phoneblackm"></use>
+            </svg>
+          </label>
+                <label class="form__field">
+            <span class="form__label ">Пошта</span>
+            <input class="form__input"type="email"name="email"placeholder=" "/>
+            <svg class="form__icon" width="18 " height="18 ">
+              <use href="./images/symbol-defs.svg#icon-mailblackm"></use>
+            </svg>
+          </label>
+                <label for="comment" class="form__field">
+            <span class="form__label">Комментарій</span>
+            <textarea placeholder="Введите текст"class="form__comment"name="comment"id="comment">
+          </textarea>
+          </label>
+                <label for="polisi" class="form__check">
+            <input class="form__checkbox"type="checkbox"name="polici"id="polisi"/>
+            <span class="form__icon-check "></span>
+            Згоден(на) з розсилкою<a class="form__condition" href=" "
+              >умови дог</a>
+                        </label>
+                <button class="form__button-send" type="submit">Oтправить</button>
+            </form>
+        </div>
+    </div>
+    <!--кодальне вікно-->
+    <div class="backdrop is-hidden" data-kodal>
+        <div class="kodal">
+            <button class="kodal__button" data-kodal-close>
+          <svg class="kodal-close" width="20 " height="20 ">
+            <use href="./images/symbol-defs.svg#icon-closem"></use>
+          </svg>
+        </button>
+            <div class="kodal__contacts">
+                <p class="kodal__leave">Ми на звязку з 8.00 до 18.00</p>
+                <ul class="kodal__list">
+                    <li class="kodal__item">
+                        <div class="kodal__content">
+                            <img class="kodal__image" src="./images/men-min.png" alt="men" />
+                            <p class="kodal__name">АНДРІЙ</p>
+                        </div>
+                        <ul class="kodal__contact">
+                            <li class="kodal__itm--phone">
+                                <a class="kodal__contact--phone" href="tel:+380982376021">
+                  +(380)98 237 6021</a>
+                            </li>
+                            <li class="kodal__itm">
+                                <a class="kodal__contact--mail" href="mailto:pvg_erku@ukr.net">
+                  pvg_erku@ukr.net</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="kodal__item">
+                        <div class="kodal__content">
+                            <img class="kodal__image" src="./images/women-min.png" alt="men" />
+                            <p class="kodal__name">ЗОЯ</p>
+                        </div>
+                        <ul class="kodal__contact">
+                            <li class="kodal__itm--phone">
+                                <a class="kodal__contact--phone" href="tel:+380960724926">
+                  +(380)96 072 4926</a>
+                            </li>
+                            <li class="kodal__itm">
+                                <a class="kodal__contact--mail" href="mailto:pvg_erku@ukr.net">
+                  pvg_erku@ukr.net</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/kodal.js"></script>
+    <script src="js/scrollup.js "></script>
+    <script src="js/modal.js "></script>
+    <!--мобільне меню-->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+        <svg width="20px " height="20px ">
+          <use class=" " href="./images/symbol-defs.svg#icon-closem"></use>
+        </svg>
+      </button>
+        <button type="button" class="mobile-menu__button--order" id="mobBtn">
+        Buy now<svg
+          class="mobile-menu__button--order-icon "
+          width="5px "
+          height="8px "
+        >
+          <use href="images/symbol-defs.svg#icon-Vectored"></use>
+        </svg>
+      </button>
+        <ul class="mobile-menu">
+            <li class="mobile-menu__item">
+                <a href=" " class="mobile-menu__link">Home</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#about" class="mobile-menu__link">About us</a>
+            </li>
+            <li class="mobile-menu__item ">
+                <a href="#made" class="mobile-menu__link">How it’s made?</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#products " class="mobile-menu__link">Our products</a>
+            </li>
+            <li class="mobile-menu__item">
+                <a href="#contact " class="mobile-menu__link">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div id="myModal" class="modalbuy">
+        <!-- Modalbuy content -->
+        <div class="modalbuy-content">
+            <span class="close "><svg width="20px " height="20px ">
+          <use class=" " href="./images/symbol-defs.svg#icon-closem"></use>
+        </svg></span>
+            <form class=" " autocomplete="off">
+                <p class="form__leave">зателефонуємо</p>
+
+                <label for="name" class="form__field">
+            <span class="form__label">імя</span>
+            <input type="text"name="user-name"id="name"placeholder=" "autofocus class="form__input"/>
+
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-blackmanm"></use>
+            </svg>
+          </label>
+
+                <label for="tel" class="form__field">
+            <span class="form__label">Телефон</span>
+            <input class="form__input"type="tel"name="tel"id="tel"placeholder=" "/>
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phoneblackm"></use>
+            </svg>
+          </label>
+                <label class="form__field">
+            <span class="form__label">Пошта</span>
+            <input class="form__input" type="email"name="email"placeholder=" "/>
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-mailblackm"></use>
+            </svg>
+          </label>
+                <label for="comment" class="form__field">
+            <span class="form__label">Коментарій</span>
+            <textarea
+              placeholder="Введите текст"class="form__comment"name="comment"id="comment"></textarea>
+          </label>
+                <label for="polisi" class="form__check">
+            <input class="form__checkbox"type="checkbox"name="polici"id="polisi"/>
+
+            <span class="form__icon-check"></span>
+            Згоден з умовами<a class="form__condition" href=" "
+              > дог</a>
+          </label>
+                <button class="form__button-send" type="submit">відправити</button>
+            </form>
+        </div>
+
+    </div>
+    <!-- mobModal content -->
+    <div id="mobModal" class="mobmodal">
+
+        <div class="mobmodal-content">
+            <span class="closebtn"><svg width="20px " height="20px ">
+          <use class=" " href="./images/symbol-defs.svg#icon-closem"></use>
+        </svg></span>
+            <form class=" " autocomplete="off">
+                <p class="form__leave">Оставьте свои данные, мы вам перезвоним</p>
+
+                <label for="name " class="form__field">
+            <span class="form__label">Имя</span>
+            <input type="text"name="user-name"id="name"placeholder=" "autofocus class="form__input"/>
+
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-blackmanm"></use>
+            </svg>
+          </label>
+
+                <label for="tel" class="form__field">
+            <span class="form__label">Телефон</span>
+            <input class="form__input" type="tel"name="tel"id="tel"placeholder=" "/>
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-phoneblackm"></use>
+            </svg>
+          </label>
+                <label class="form__field">
+            <span class="form__label">Почта</span>
+            <input class="form__input"type="email"name="email"placeholder=" "/>
+            <svg class="form__icon" width="18" height="18">
+              <use href="./images/symbol-defs.svg#icon-mailblackm"></use>
+            </svg>
+          </label>
+                <label for="comment" class="form__field">
+            <span class="form__label">Комментарий</span>
+            <textarea placeholder="Введите текст"class="form__comment"name="comment"id="comment">
+                          </textarea>
+          </label>
+                <label for="polisi" class="form__check"> 
+                      <input class="form__checkbox"type="checkbox"name="polici"id="polisi"/>
+
+            <span class="form__icon-check"></span>
+            Соглашаюсь с рассылкой и принимаю<a class="form__condition" href=" "
+              >Условия договора</a>
+          </label>
+                <button class="form__button-send" type="submit">Oтправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js " integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin=" anonymous "></script>
+    <script defer src="js/mobile-menu.js "></script>
+    <script defer src="js/modalbuy.js "></script>
+    <script defer src="js/mobbuy.js "></script>
+</body>
+
+</html>
+</body>
+
+</html>
