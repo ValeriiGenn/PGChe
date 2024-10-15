@@ -1,15 +1,17 @@
 .header {
     padding-top: 31px;
+    
+        }
+&__honors {
+                    display: flex;
+                    
+                    }
     &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-        &__honors {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
+    
     &__btn {
         // border: 1px solid rgba(0, 0, 0, 0.2);
         //position: absolute;
@@ -64,7 +66,7 @@
         }
                 
     }
-    
+ .header__honors{display: flex;}   
     /*&__duplicate {
         position: absolute;
         width: 306px;
