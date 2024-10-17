@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "ansi-regex": "^6.1.0"
+  },
+  "dependencies": {
+    "gulp": "^5.0.0"
+  }
+}
