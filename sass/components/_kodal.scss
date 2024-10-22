@@ -1,4 +1,4 @@
-.backdrop.is-hidden {
+/*.backdrop.is-hidden {
     opacity: 0;
     pointer-events: none;
     visibility: hidden;
@@ -17,12 +17,12 @@
 
 .backdrop.is-hidden .kodal {
     transform: translate(-50%, -50%) scale(0.9);
-}
+}*/
 
 
 /*контент */
 
-.kodal {
+/*.kodal {
     position: absolute;
     top: 65%;
     left: 50%;
@@ -32,7 +32,7 @@
     padding: 50px 20px;
     border-radius: 20px;
     background-color: var(--bg-color);
-    @media screen and(min-width: 768px) {
+   // @media screen and (min-width: 768px) {
         left: 30%;
         transform: translate(-50%, -65%) scale(1);
     }
@@ -90,4 +90,4 @@
     &__itm--phone {
         margin-bottom: 15px;
     }
-}
+}*/

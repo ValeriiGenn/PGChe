@@ -1,24 +1,25 @@
 .header {
     padding-top: 31px;
-        &__container {
+    padding-bottom: 5px;
+    &__container {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
     }
-    &__honors { display: flex; 
-        background-color: aqua;
-    border: 1px solid rgba(0, 0, 0, 0.2); }
+    &__honors{display: flex;}
     &__btn {
-        // border: 1px solid rgba(0, 0, 0, 0.2);
+        
         //position: absolute;
         //width: 26px;
         //height: 10px;
         //right: 50px;
         //top: 40px;
+        border: none;
         background-color: var(--white-color);
         //background-image: linear-gradient( 180deg, #fa3465 0px, #fa3465 1px, rgba(0, 0, 0, 0) 1px, rgba(0, 0, 0, 0) 2px, #fa3465 2px, #fa3465 3px, rgba(0, 0, 0, 0) 3px, rgba(0, 0, 0, 0) 4px, #fa3465 4px, #fa3465 5px);
         //background: linear-gradient( 0deg, #fa3465 0px, #fa3465 1px, , 2px#fa3465 2px, #fa3465 3px);
-        border-radius: 2px;
+        //border-radius: 2px;
         /*display: flex;
         @media screen and (min-width: 1200px) {
             display: none;
@@ -27,7 +28,7 @@
             margin-left: 291px;
             background-color: transparent;
         }
-        border: none;
+        
         background-color: var(--white-color);*/
     }
     &__nav {
@@ -60,30 +61,8 @@
             color: var(--abprvw-color);
             background-color: var(--bgheher-color);
         }
-                
     }
-  
-    /*&__duplicate {
-        position: absolute;
-        width: 306px;
-        height: 82px;
-        left: 188px;
-        top: 140px;
-        font-weight: bold;
-        font-size: 30px;
-        line-height: 135%;
-        
-        text-align: center;
-        text-shadow: 0 0 0 white;
-        
-        color: transparent;
-        text-transform: uppercase;
-        mix-blend-mode: hard-light;
-        opacity: 0.7;
-        //border: 0.8px solid #ffffff;
-        background-image: url(../images/mob/Rectangle13-min.png);
-    }*/
-    &__navbtn {
+       &__navbtn {
         @media screen and (min-width: 768px) {
             margin-left: 30px;
             width: 160px;
@@ -120,7 +99,4 @@
             margin-left: 78px;
         }
     }
-        
 }
-
-

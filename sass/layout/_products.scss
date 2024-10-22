@@ -1,4 +1,4 @@
-.products {display: none;
+.products {
     margin-left: auto;
     margin-right: auto;
     @media screen and (min-width: 768px) {
@@ -9,7 +9,7 @@
     text-align: center;
 }
 
-.products__slogan {display: none;
+.products__slogan {
     //margin-bottom: 114px;
     //@media screen and (min-width: 768px) {
     //  margin-bottom: 150px;
@@ -53,7 +53,7 @@
     }
 }
 
-.products__list {display: none;
+.products__list {
     @media screen and (min-width: 768px) {
         display: flex;
     }
