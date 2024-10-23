@@ -222,12 +222,12 @@ body {
   background-position: 0px 0px, 0px 231px;
   background-repeat: no-repeat;
 }
-.hero__overlay::before {
+.hero__overlay-cont {
   position: absolute;
-  content: "";
   width: 375px;
   height: 463px;
-  bottom: -80px;
+  top: 130px;
+  left: 14px;
   background-image: url(../images/mob/trizub1-mob.png);
   background-repeat: no-repeat;
   opacity: 0.5;
@@ -238,25 +238,25 @@ body {
   width: 306px;
   margin-left: 33px;
   /* &::after {
-     position: absolute;
-     content: "";
-     width: 55px;
-     height: 31px;
-     right: 10px;
-     bottom: -104px;
-    // background-image: url(../images/icons/MaskGroupm.svg);
-     background-repeat: no-repeat;
-   }
-   &::before {
-     position: absolute;
-     content: "";
-     width: 55px;
-     height: 31px;
-     right: 10px;
-     bottom: -80px;
-    // background-image: url(../images/icons/MaskGrouptopm.svg);
-     background-repeat: no-repeat;
-   }*/
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 31px;
+    right: 10px;
+    bottom: -104px;
+   // background-image: url(../images/icons/MaskGroupm.svg);
+    background-repeat: no-repeat;
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    width: 55px;
+    height: 31px;
+    right: 10px;
+    bottom: -80px;
+   // background-image: url(../images/icons/MaskGrouptopm.svg);
+    background-repeat: no-repeat;
+  }*/
 }
 .hero__title {
   font-weight: bold;
@@ -315,6 +315,17 @@ body {
 /*.container {
     padding-bottom: 40px;
 }*/
+.filter__title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px var(--h1-color);
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0 -16px 0 var(--shadtitle-color);
+  margin-bottom: 13px;
+}
 .filter__list {
   list-style: none;
   display: flex;

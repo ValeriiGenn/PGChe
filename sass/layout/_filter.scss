@@ -3,6 +3,16 @@
 }*/
 
 .filter{
+    &__title{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px var(--h1-color);
+        -webkit-text-fill-color: transparent;
+        text-shadow: 0 -16px 0 var(--shadtitle-color);
+        margin-bottom: 13px;}
     &__list {
     @media screen and (min-width:768px) {
         justify-content: center;

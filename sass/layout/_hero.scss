@@ -14,16 +14,17 @@
     background-position: 0px 0px, 0px 231px;
     background-repeat: no-repeat;
     
-      &::before {
-          position: absolute;
-          content: "";
-          width: 375px;
-          height: 463px;
-                    bottom: -80px;
-           background-image: url(../images/mob/trizub1-mob.png);
-          background-repeat: no-repeat;
-          opacity: 0.5;
-        } }
+       }
+   &__overlay-cont{
+    position: absolute;
+        //content: "";
+        width: 375px;
+        height: 463px;
+        top: 130px;
+        left: 14px;
+        background-image: url(../images/mob/trizub1-mob.png);
+        background-repeat: no-repeat;
+        opacity: 0.5;}    
   &__container {
     position: relative;
     text-align: center;
@@ -31,7 +32,8 @@
     //margin-right: auto;
     width: 306px;
     margin-left: 33px;
-   /* &::after {
+   
+        /* &::after {
       position: absolute;
       content: "";
       width: 55px;
