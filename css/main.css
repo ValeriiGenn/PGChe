@@ -311,7 +311,7 @@ textarea {
 .menu-container {
   position: fixed;
   top: 0;
-  right: 0;
+  right: 10;
   width: 100vw;
   height: 70vh;
   padding: 23px 21px;
