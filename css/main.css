@@ -759,6 +759,15 @@ span.price {
   color: chartreuse;
   margin-bottom: 15px;
 }
+.hero__slogan::before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 10px;
+  top: 190px;
+  left: -8px;
+  background: url(../images/mob/quote.svg);
+}
 .hero__call {
   font-size: 14px;
   line-height: 17px;

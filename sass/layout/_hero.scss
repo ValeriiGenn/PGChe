@@ -81,6 +81,14 @@
     text-align: center;
     color: chartreuse;
     margin-bottom: 15px;
+    &::before{
+      content: "";
+      position: absolute;
+      width: 18px;
+      height: 10px;
+      top: 190px;
+      left: -8px;
+      background: url(../images/mob/quote.svg);}
   }
   &__call {
     font-size: 14px;
