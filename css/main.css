@@ -332,8 +332,12 @@ textarea {
   left: 28px;
   top: 23px;
   z-index: 9;
-  width: 20px;
-  height: 20px;
+  border: none;
+}
+.menu-toggle--icon {
+  display: inline-block;
+  stroke: #f4ff99;
+  fill: currentColor;
 }
 
 .mobile-menu {
