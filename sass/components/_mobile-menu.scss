@@ -6,7 +6,7 @@
     height: 70vh;
     padding: 23px 21px;
     padding-top: 60px;
-    background-color: #e17992;
+    background: linear-gradient(#f4ff99 0% 50%,#cfe2f3 50% 100%);
     z-index: 9;
     transform: translateX(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -22,9 +22,11 @@
     left: 28px;
     top: 23px;
     z-index: 9;
-    background-color: #e17992;
-    border: 2px solid;
-    border-radius: 1px;
+    width: 20px;
+    height: 20px;
+    //background-image:url(../images/mob/perun.png);
+    //border: 1px solid;
+    
 }
 
 .mobile-menu {
@@ -38,7 +40,7 @@
             fill: currentColor;
         }
     }
-    &__button--order {
+    /*&__button--order {
         margin-left: auto;
         margin-right: auto;
         width: 209px;
@@ -57,7 +59,7 @@
     }
     &__button--order-icon {
         margin-left: 14px;
-    }
+    }*/
     &__link {
         display: block;
         padding-top: 12px;
