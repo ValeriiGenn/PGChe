@@ -24,12 +24,13 @@
     top: 23px;
     z-index: 9;
         border:none;
+        background-color: #f4ff99;
     &--icon {
             display: inline-block;
             //width: 1em;
             //height: 1em;
             //stroke-width: 20px;
-            stroke:#f4ff99;
+            stroke:currentColor;
             fill:currentColor ;
             
         }

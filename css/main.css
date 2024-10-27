@@ -333,10 +333,11 @@ textarea {
   top: 23px;
   z-index: 9;
   border: none;
+  background-color: #f4ff99;
 }
 .menu-toggle--icon {
   display: inline-block;
-  stroke: #f4ff99;
+  stroke: currentColor;
   fill: currentColor;
 }
 
