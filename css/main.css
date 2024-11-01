@@ -389,11 +389,21 @@ textarea {
   line-height: 18px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: var(--link-color);
 }
 .mobile-menu__item {
   width: 100%;
   border-top: 1px solid #e18298;
+}
+.mobile-menu__item--title {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 120px;
+  color: var(--title);
+  font-family: DM Sans;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .mobmodal {
@@ -693,6 +703,10 @@ span.price {
   padding-top: 46px;
   padding-bottom: 101px;
   width: 375px;
+}
+.hero__tit {
+  margin-top: 120px;
+  color: red;
 }
 .hero__overlay {
   margin: 0 auto;

@@ -78,11 +78,23 @@
         line-height: 18px;
         display: flex;
         align-items: center;
-        color: #ffffff;
+        color:var(--link-color);
     }
     &__item {
         width: 100%;
         border-top: 1px solid #e18298;
+        &--title{
+            //margin-left: 120px;
+            padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 120px;
+            color: var(--title);
+            font-family: DM Sans;
+                font-weight: bold;
+                font-size: 16px;
+                line-height: 20px;
+            
+        }
     }
     /*&__item:not(:last-child) {
         margin-bottom: 23px;

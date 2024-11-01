@@ -3,12 +3,14 @@
   padding-bottom: 101px;
   width: 375px;
   
-  //height: 220px;
+  &__tit{ 
+    margin-top: 120px;
+    color: red;
+  }
   
     &__overlay {
     margin: 0 auto;
-    // position: relative;
-  //position:absolute;
+   
   background-image: url(../images/mob/prapor-ukraine.png),
       url(../images/mob/red-black-min.png);
     background-position: 0px 0px, 0px 231px;
