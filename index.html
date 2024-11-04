@@ -114,21 +114,27 @@
             <a href="tel:+380982376021" class="hero__link">телефонуй</a>
           </li>
         </ul>
-        <p class="hero__tit">ПАНОВЕ, ЧЕКАЮ КОНТЕНТ !!!</p>
-      </section>
-      <section class="documents">
-        <div id="documents" class="documents__container container">
+              </section>
+      <section id="documents"  class="documents">
+                <div  class=" container documents__container ">
           <h1 class="documents__title">ДОКУМЕНТИ</h1>
-          <ul class="documents__extract">
+          <div class="documents__wrap">
+                    <ul class="documents__extract">
             <li class="documents__extract-item>
             <picture class="documents__picture">
                         <source srcset="
-            ./images/mob/extr1min.jpg 1x  media="(width: 375px)"/>
-            <img class="documents__image" src="./images/mob/extr1min.jpg" alt="витяг" />
+            ./images/compr1280/cow-milk-1x-min.png 1x,
+            ./images/compr1280/cow-milk-2x-min.png 2x" media="(min-width: 1920px)" />
+                                    <source srcset="
+            ./images/mob/extr1min.jpg 1x,
+            ./images/mob/extr1min.jpg 2x" media="(width: 375px)" />
+                                    <img class="documents__img" src="./images/mob/extr1min.jpg" alt="витяг" />
+                                </picture>
             </picture>
                      </li>
            </ul>
         </div>
+      </div>
       </section>
       <!--секція осередки-->
       <!--<section class="filter">

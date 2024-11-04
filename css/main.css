@@ -871,9 +871,26 @@ span.price {
 /*@import "./layout/about";
 @import "./layout/advantages";
 @import "./layout/continuation";
-@import "./layout/biography";
-@import "./layout/documents";
-@import "./layout/course";
+@import "./layout/biography";*/
+.documents {
+  padding-top: 63px;
+  padding-bottom: 82px;
+  width: 375px;
+}
+.documents__container {
+  position: relative;
+  text-align: center;
+}
+.documents__image {
+  position: absolute;
+  left: 25px;
+}
+.documents__title {
+  justify-items: center;
+  margin-bottom: 20px;
+}
+
+/*@import "./layout/course";
 @import "./layout/gallery";
 @import "./layout/reviews";
 @import "./layout/feedback";*/
