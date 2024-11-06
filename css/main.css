@@ -876,18 +876,18 @@ span.price {
   padding-top: 63px;
   padding-bottom: 82px;
   width: 375px;
+  /*&__image {
+    position: absolute;
+    left: 25px;
+  }*/
+  /*&__title {
+    justify-items: center;
+    margin-bottom: 20px;
+  }*/
 }
 .documents__container {
-  position: relative;
   text-align: center;
-}
-.documents__image {
-  position: absolute;
-  left: 25px;
-}
-.documents__title {
-  justify-items: center;
-  margin-bottom: 20px;
+  padding: 0;
 }
 
 /*@import "./layout/course";
